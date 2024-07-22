@@ -1,0 +1,117 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "GameUI",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 7851341340251704530
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 15158721223055957261
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 4057671962330611785,
+                "Child Entity Order": [
+                    "Entity_[29400065570252]"
+                ]
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 12904511480431353854
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 12564488802768681663
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 12309712845774818606
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 9899425457208872137
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 912633134288848571
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 4283738723589007076
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 9462927605358376875,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[29400065570252]": {
+            "Id": "Entity_[29400065570252]",
+            "Name": "testui",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3673429625098409711
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 1796534315226060495
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 51452998999500500
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 10527532167349001658,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 17741189698472442755
+                        },
+                        {
+                            "ComponentId": 15299849548798472689,
+                            "SortIndex": 1
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3024833237133678978
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13296452505375180547
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 16857711734091711530
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 16884713691515508927
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17741189698472442755,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "UiCanvasAssetRefComponent": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 15299849548798472689,
+                    "m_template": {
+                        "$type": "UiCanvasAssetRefComponent",
+                        "CanvasAssetRef": {
+                            "AssetPath": "cameraoverlay.uicanvas"
+                        },
+                        "IsAutoLoad": true
+                    }
+                }
+            }
+        }
+    }
+}

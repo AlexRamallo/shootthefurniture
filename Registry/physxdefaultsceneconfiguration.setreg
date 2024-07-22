@@ -1,0 +1,12 @@
+{
+    "Amazon": {
+        "Gems": {
+            "PhysX": {
+                "DefaultSceneConfiguration": {
+                    "EnableCcd": true,
+                    "BounceThresholdVelocity": 1.0
+                }
+            }
+        }
+    }
+}

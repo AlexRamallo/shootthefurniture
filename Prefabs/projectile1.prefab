@@ -1,0 +1,223 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "projectile1",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 5055332410851993474
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 13503569742094809214
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 12549159371116393802,
+                "Child Entity Order": [
+                    "Entity_[1704888960572]"
+                ]
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 10166250231867134754
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 710838003395259608
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 4756309903937380520
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 6367556499486125904
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 3587375273917162013
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 4114437269819893754
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 10959059311899711783,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1704888960572]": {
+            "Id": "Entity_[1704888960572]",
+            "Name": "projectile1",
+            "Components": {
+                "AZ::Render::EditorMeshComponent": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 12798084036554275087,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{2C665021-133A-538F-AEE3-97DE948C4D6D}",
+                                    "subId": 280367037
+                                },
+                                "assetHint": "materialeditor/viewportmodels/quadsphere.fbx.azmodel"
+                            }
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 18130852529654417355
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 664800452850657427
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12496294660413791299
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 15299687859998110361,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 8381063606896792325
+                        },
+                        {
+                            "ComponentId": 12798084036554275087,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 2365655200723959611,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 4517744785190416233,
+                            "SortIndex": 3
+                        },
+                        {
+                            "ComponentId": 12480266851784869261,
+                            "SortIndex": 4
+                        },
+                        {
+                            "ComponentId": 2947970421849502639,
+                            "SortIndex": 5
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7386115619999234890
+                },
+                "EditorMaterialComponent": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 2365655200723959611,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": {
+                                "{}": {
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{BABA4654-0204-56FB-9E64-98458FC89315}"
+                                        },
+                                        "assetHint": "assets/untitled_3.azmaterial"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 6007054177296769210
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 1164344945117391672
+                },
+                "EditorRigidBodyComponent": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 2947970421849502639,
+                    "Configuration": {
+                        "entityId": "",
+                        "Kinematic": true,
+                        "Gravity Enabled": false
+                    }
+                },
+                "EditorShapeColliderComponent": {
+                    "$type": "EditorShapeColliderComponent",
+                    "Id": 12480266851784869261,
+                    "ColliderConfiguration": {
+                        "CollisionLayer": {
+                            "Index": 4
+                        },
+                        "CollisionGroupId": {
+                            "GroupId": "{5D8543A3-0C05-4539-A6E4-43971FB41D23}"
+                        },
+                        "Trigger": true,
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.5
+                        ],
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfigs": [
+                        {
+                            "$type": "SphereShapeConfiguration",
+                            "Scale": [
+                                0.30000001192092896,
+                                0.30000001192092896,
+                                0.30000001192092896
+                            ]
+                        }
+                    ]
+                },
+                "EditorSphereShapeComponent": {
+                    "$type": "EditorSphereShapeComponent",
+                    "Id": 4517744785190416233,
+                    "SphereShape": {
+                        "Configuration": {
+                            "TranslationOffset": [
+                                0.0,
+                                0.0,
+                                0.5
+                            ]
+                        }
+                    }
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8885707141698482787
+                },
+                "LD55::ProjectileComponent": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 4697817081549917808,
+                    "m_template": {
+                        "$type": "LD55::ProjectileComponent",
+                        "Lifetime": 11.0
+                    }
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 8381063606896792325,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "UniformScale": 0.30000001192092896
+                    }
+                }
+            }
+        }
+    }
+}

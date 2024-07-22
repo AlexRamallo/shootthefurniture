@@ -1,0 +1,585 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "LD55Player",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 16948014846610758802
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 2014530207914031390
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 5930727675198342942,
+                "Child Entity Order": [
+                    "Entity_[3036943061973]"
+                ]
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 2295483835464662149
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 3780135487627928122
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 2093393888989338392
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 16356655305042250269
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 11204210329891975751
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 12638868040918335186
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 9948837196692805196,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[3036943061973]": {
+            "Id": "Entity_[3036943061973]",
+            "Name": "LD55Player",
+            "Components": {
+                "EditorCharacterControllerComponent": {
+                    "$type": "EditorCharacterControllerComponent",
+                    "Id": 1662889619636156915,
+                    "Configuration": {
+                        "entityId": "",
+                        "CollisionLayer": {
+                            "Index": 1
+                        },
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "EditorCharacterGameplayComponent": {
+                    "$type": "EditorCharacterGameplayComponent",
+                    "Id": 17353738555573622607
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11901850970353826475
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 8368518994662096599
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 6196129594311623620,
+                    "Child Entity Order": [
+                        "Entity_[3049827963861]"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3541636054020748972,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 3593565190239682674
+                        },
+                        {
+                            "ComponentId": 8747372120312983531,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 12229241725429359563,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 17047197699157979456,
+                            "SortIndex": 3
+                        },
+                        {
+                            "ComponentId": 1662889619636156915,
+                            "SortIndex": 4
+                        },
+                        {
+                            "ComponentId": 17353738555573622607,
+                            "SortIndex": 5
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7719711187834625953
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1454262161614710104
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 905591396394158663
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14771598796469845674
+                },
+                "InputConfigurationComponent": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 12229241725429359563,
+                    "m_template": {
+                        "$type": "InputConfigurationComponent",
+                        "Input Event Bindings": {
+                            "assetId": {
+                                "guid": "{51EA5676-E7F0-5F24-B775-705A89130768}"
+                            },
+                            "assetHint": "player_inputs.inputbindings"
+                        }
+                    }
+                },
+                "LD55::CombatStatusComponent": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 8747372120312983531,
+                    "m_template": {
+                        "$type": "LD55::CombatStatusComponent",
+                        "Health": 100.0,
+                        "Sound Die": "",
+                        "Sound Hurt": "",
+                        "Sound Heal": "",
+                        "Destroy On Die": false
+                    }
+                },
+                "LD55::PlayerControlComponent": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 17047197699157979456,
+                    "m_template": {
+                        "$type": "LD55::PlayerControlComponent",
+                        "FPS Camera": "Entity_[3049827963861]",
+                        "Arms": "Entity_[3045532996565]",
+                        "Muzzle Flash Light": "Entity_[3041238029269]",
+                        "Can Run": true,
+                        "Can Jump": true,
+                        "Muzzle Offset": [
+                            -0.019999999552965164,
+                            0.019999999552965164,
+                            0.10000000149011612
+                        ],
+                        "Sound Shoot": "",
+                        "Sound Reload": "",
+                        "Sound Walk": "",
+                        "Game UI": ""
+                    }
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 3593565190239682674,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        },
+        "Entity_[3041238029269]": {
+            "Id": "Entity_[3041238029269]",
+            "Name": "muzzle_flash",
+            "Components": {
+                "AZ::Render::EditorAreaLightComponent": {
+                    "$type": "AZ::Render::EditorAreaLightComponent",
+                    "Id": 10335209980682370222,
+                    "Controller": {
+                        "Configuration": {
+                            "LightType": 6,
+                            "Color": [
+                                1.0,
+                                0.4941176474094391,
+                                0.0
+                            ],
+                            "Intensity": 0.0,
+                            "Affects GI": false
+                        }
+                    }
+                },
+                "EditorAttachmentComponent": {
+                    "$type": "EditorAttachmentComponent",
+                    "Id": 15312771711139357905,
+                    "Target ID": "Entity_[3045532996565]",
+                    "Target Bone Name": "gun_bone",
+                    "Position Offset": [
+                        -0.019999999552965164,
+                        0.019999999552965164,
+                        0.10000000149011612
+                    ]
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11127388134565131171
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 14012800752684428804
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 2512919944686671627
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 107678798381943407,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 5640566521117554253
+                        },
+                        {
+                            "ComponentId": 10335209980682370222,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 15312771711139357905,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10289935147302471371
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 2033094279776088994
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 2950622922367069495
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 12750014649958433279
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5640566521117554253,
+                    "Parent Entity": "Entity_[3049827963861]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.2406306266784668,
+                            0.09059619903564453,
+                            -0.1873132586479187
+                        ],
+                        "Rotate": [
+                            180.0,
+                            -9.78806497187179e-7,
+                            129.10118103027344
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[3045532996565]": {
+            "Id": "Entity_[3045532996565]",
+            "Name": "skelearms",
+            "Components": {
+                "EditorActorComponent": {
+                    "$type": "EditorActorComponent",
+                    "Id": 6016619317967091740,
+                    "ActorAsset": {
+                        "assetId": {
+                            "guid": "{1C4C0A14-A99C-5188-9812-E98665DEA4FB}",
+                            "subId": 2746504717
+                        },
+                        "loadBehavior": "QueueLoad",
+                        "assetHint": "leoassets/characters/skeletonarms/skeletonarmsfull.actor"
+                    },
+                    "AttachmentTarget": "",
+                    "UpdateJointTransformsWhenOutOfView": true,
+                    "BBoxConfig": {
+                        "expandBy": 200.0
+                    }
+                },
+                "EditorAnimGraphComponent": {
+                    "$type": "EditorAnimGraphComponent",
+                    "Id": 2345051522915604493,
+                    "AnimGraphAsset": {
+                        "assetId": {
+                            "guid": "{4D551C8B-4B21-57FD-917D-9AC833054C83}"
+                        },
+                        "assetHint": "assets/anim/skelearms.animgraph"
+                    },
+                    "MotionSetAsset": {
+                        "assetId": {
+                            "guid": "{29362E1A-B3FC-5A18-BAB3-AAEF619DF03F}"
+                        },
+                        "assetHint": "assets/anim/skelearms.motionset"
+                    },
+                    "ActiveMotionSetName": "Skelearms",
+                    "ParameterDefaults": {
+                        "Parameters": [
+                            {
+                                "$type": "AzFramework::ScriptPropertyNumber",
+                                "id": 2694953198,
+                                "name": "dial_position"
+                            },
+                            {
+                                "$type": "AzFramework::ScriptPropertyBoolean",
+                                "id": 3710864565,
+                                "name": "dial_press"
+                            },
+                            {
+                                "$type": "AzFramework::ScriptPropertyBoolean",
+                                "id": 1633565673,
+                                "name": "is_dialing"
+                            },
+                            {
+                                "$type": "AzFramework::ScriptPropertyNumber",
+                                "id": 2251193682,
+                                "name": "walk_speed"
+                            },
+                            {
+                                "$type": "AzFramework::ScriptPropertyBoolean",
+                                "id": 3136096604,
+                                "name": "gun_equipped"
+                            },
+                            {
+                                "$type": "AzFramework::ScriptPropertyBoolean",
+                                "id": 1761850820,
+                                "name": "gun_reload"
+                            },
+                            {
+                                "$type": "AzFramework::ScriptPropertyBoolean",
+                                "id": 2861359374,
+                                "name": "gun_shoot"
+                            }
+                        ]
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 17832809150047614773
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3782324597039263244
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12041740889707615032
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3815325085239546365,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 16772563171230396842
+                        },
+                        {
+                            "ComponentId": 6016619317967091740,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 10854204318858038091,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 2345051522915604493,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 14867964205986915288
+                },
+                "EditorMaterialComponent": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 10854204318858038091,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 553289572
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{DDFC7055-6D46-5C0C-AE9A-DE307DB540C3}"
+                                            },
+                                            "assetHint": "leoassets/characters/skeletonarms/skeletonarms textures/skelarms_mat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1790657676
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{77139762-9075-59FF-B3CC-CC5AB3BCE628}",
+                                                "subId": 1208678642
+                                            },
+                                            "assetHint": "leoassets/characters/arms/equipment/gun/guntextured_gun_mat_14042347772494674162.gltf.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2558432196
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{8776EECF-08C4-5B51-8A7C-B51B7CFB1106}"
+                                            },
+                                            "assetHint": "leoassets/characters/arms/equipment/phone/bluephone_plane_baked.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3464118590
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{105DFF77-BC4B-5E28-B7FE-635D97FBB949}",
+                                                "subId": 2888997978
+                                            },
+                                            "assetHint": "leoassets/characters/arms/equipment/beeper/beeper_cube_baked_8033430541270424666.gltf.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9978890857631322576
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11980185234378170152
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7139517580575156284
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 16772563171230396842,
+                    "Parent Entity": "Entity_[3049827963861]",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.009999999776482582,
+                            0.05999999865889549,
+                            -0.5099999904632568
+                        ],
+                        "UniformScale": 0.30000001192092896
+                    }
+                }
+            }
+        },
+        "Entity_[3049827963861]": {
+            "Id": "Entity_[3049827963861]",
+            "Name": "player_cam",
+            "Components": {
+                "EditorCameraComponent": {
+                    "$type": "{CA11DA46-29FF-4083-B5F6-E02C3A8C3A3D} EditorCameraComponent",
+                    "Id": 12624726963572296205,
+                    "Controller": {
+                        "Configuration": {
+                            "Near Clip Plane Distance": 0.0010000000474974513
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 15592109555162156938
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 10780486037096019064
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 669500837710240892,
+                    "Child Entity Order": [
+                        "Entity_[3041238029269]",
+                        "Entity_[3045532996565]"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12026142731807064657,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 4555651009428483472
+                        },
+                        {
+                            "ComponentId": 12624726963572296205,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 493378801640137262,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10399379114793786624
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 15638477689477373444
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15200747370006114116
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1632304863749985843
+                },
+                "LD55::FPSCameraComponent": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 493378801640137262,
+                    "m_template": {
+                        "$type": "LD55::FPSCameraComponent",
+                        "Sensitivity": [
+                            0.00800000037997961,
+                            0.00800000037997961
+                        ],
+                        "Enable View Slerp": false
+                    }
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 4555651009428483472,
+                    "Parent Entity": "Entity_[3036943061973]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            0.756967306137085
+                        ],
+                        "Rotate": [
+                            -5.967065334320068,
+                            -0.34555450081825256,
+                            3.386321544647217
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

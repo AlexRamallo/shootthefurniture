@@ -1,0 +1,5 @@
+SET O3DE_PATH="G:\o3de-source"
+SET O3DE_PROJECT_PATH="C:\Users\skleembof\O3DE\Projects\LD55"
+SET O3DE_PROJECT_SEEDLIST="C:\Users\skleembof\O3DE\Projects\LD55\AssetBundling\SeedLists\GameSeedList.seed"
+SET OUTPUT_PATH="C:\Users\skleembof\O3DE\Projects\LD55\EXPORT"
+%O3DE_PATH%\scripts\o3de.bat export-project -es ExportScripts\export_source_built_project.py --project-path %O3DE_PROJECT_PATH% --log-level INFO --config release --archive-output zip --seedlist %O3DE_PROJECT_SEEDLIST% -out %OUTPUT_PATH%

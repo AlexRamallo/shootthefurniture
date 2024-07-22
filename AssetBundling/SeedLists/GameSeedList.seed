@@ -1,0 +1,31 @@
+{
+    "Type": "JsonSerialization",
+    "Version": 1,
+    "ClassName": "AZStd::vector<SeedInfo, allocator>",
+    "ClassData": [
+        {
+            "assetId": {
+                "guid": "{AA16D195-022A-531B-AA2B-8C2BC5F29301}",
+                "subId": 1872553741
+            },
+            "platformFlags": 1,
+            "pathHint": "levels/gameover/gameover.spawnable"
+        },
+        {
+            "assetId": {
+                "guid": "{C8BBAA34-6B85-58CA-ABC1-794DFF87E9C4}",
+                "subId": 2565456200
+            },
+            "platformFlags": 1,
+            "pathHint": "levels/leolevel/leolevel.spawnable"
+        },
+        {
+            "assetId": {
+                "guid": "{C11A652E-EB33-54D6-88AF-38FCF9792526}",
+                "subId": 2952358260
+            },
+            "platformFlags": 1,
+            "pathHint": "levels/menu/menu.spawnable"
+        }
+    ]
+}

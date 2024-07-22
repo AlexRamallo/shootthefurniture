@@ -1,0 +1,170 @@
+{
+    "Amazon": {
+        "Gems": {
+            "PhysX": {
+                "PhysXSystemConfiguration": {
+                    "CollisionConfig": {
+                        "Layers": {
+                            "LayerNames": [
+                                "Default",
+                                "players",
+                                "enemies",
+                                "collectibles",
+                                "triggers",
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {}
+                            ]
+                        },
+                        "Groups": {
+                            "GroupPresets": [
+                                {
+                                    "Name": "All",
+                                    "ReadOnly": true
+                                },
+                                {
+                                    "Id": {
+                                        "GroupId": "{A864DFF5-F781-4089-857C-2888E0B5215F}"
+                                    },
+                                    "Name": "None",
+                                    "Group": {
+                                        "Mask": 0
+                                    },
+                                    "ReadOnly": true
+                                },
+                                {
+                                    "Id": {
+                                        "GroupId": "{9CAA0C2A-4F54-4A78-90CD-B07F0DE4F2BC}"
+                                    },
+                                    "Name": "players",
+                                    "Group": {
+                                        "Mask": 18446744073709551586
+                                    }
+                                },
+                                {
+                                    "Id": {
+                                        "GroupId": "{BBE4B4FE-1282-4B8E-9D4B-25A1FC32A5C4}"
+                                    },
+                                    "Name": "enemies",
+                                    "Group": {
+                                        "Mask": 18446744073709551588
+                                    }
+                                },
+                                {
+                                    "Id": {
+                                        "GroupId": "{0606158E-8A5F-4F49-B88C-8450ABCE9444}"
+                                    },
+                                    "Name": "collectibles",
+                                    "Group": {
+                                        "Mask": 18446744073709551592
+                                    }
+                                },
+                                {
+                                    "Id": {
+                                        "GroupId": "{BB4CE159-F50B-46F8-893E-C7E08495B67F}"
+                                    },
+                                    "Name": "combat",
+                                    "Group": {
+                                        "Mask": 18446744073709551591
+                                    }
+                                },
+                                {
+                                    "Id": {
+                                        "GroupId": "{8816A598-5620-4806-BDD1-671C3D86B170}"
+                                    },
+                                    "Name": "triggers",
+                                    "Group": {
+                                        "Mask": 18446744073709551584
+                                    }
+                                },
+                                {
+                                    "Id": {
+                                        "GroupId": "{D0428294-1B78-4715-B211-03919225ECBA}"
+                                    },
+                                    "Name": "gameplay",
+                                    "Group": {
+                                        "Mask": 18446744073709551599
+                                    }
+                                },
+                                {
+                                    "Id": {
+                                        "GroupId": "{95A7AF03-C790-412B-A569-DA4D777FE374}"
+                                    },
+                                    "Name": "shootable",
+                                    "Group": {
+                                        "Mask": 18446744073709551589
+                                    }
+                                },
+                                {
+                                    "Id": {
+                                        "GroupId": "{5D8543A3-0C05-4539-A6E4-43971FB41D23}"
+                                    },
+                                    "Name": "playerwall",
+                                    "Group": {
+                                        "Mask": 18446744073709551587
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

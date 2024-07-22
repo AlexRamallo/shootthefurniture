@@ -1,0 +1,42 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+		}
+	],
+	"build_systems":
+	[
+		{
+			"name": "Build LD55",
+			"file_regex": "(.+[^:]):(\\d+):(\\d+): (?:fatal )?((?:error|warning): .+)$",
+			"syntax": "Packages/CMakeBuilder/Syntax/Make.sublime-syntax",
+			"file_patterns": ["*"],
+			"cmd": ["${project_path}/build_sublime.sh", "build"],
+			"variants": [
+				{
+					"name": "Clean",
+					"cmd": ["${project_path}/build_sublime.sh", "clean"],
+				},
+				{
+					"name": "Configure",
+					"cmd": ["${project_path}/build_sublime.sh", "configure"],
+				},
+				{
+					"name": "Build and Run",
+					"cmd": ["${project_path}/build_sublime.sh", "build_and_run"],
+				},
+			],
+		}
+	],
+	"settings":
+	{
+		"LSP":
+		{
+			"clangd":
+			{
+				"enabled": true
+			}
+		}
+	},
+}

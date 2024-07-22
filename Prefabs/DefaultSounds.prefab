@@ -1,0 +1,581 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "DefaultSounds",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 5014460200050496194
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 2928614968489703062
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 18401743522346836043,
+                "Child Entity Order": [
+                    "Entity_[16607940845638]"
+                ]
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 11151580689616742331
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 10579911217887973664
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 14492057651702116646
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 11614684948532566816
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 14273186418662528018
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 3333468274898859448
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 1939196944579137938,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[16582171041862]": {
+            "Id": "Entity_[16582171041862]",
+            "Name": "snf_player_reload",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 13954746375715384278
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 10723597660786960833
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 2366659941021387265
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 13589840605502348725,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 6658123545282753415
+                        },
+                        {
+                            "ComponentId": 1299576081382934428,
+                            "SortIndex": 1
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9779402898515479506
+                },
+                "EditorMiniAudioPlaybackComponent": {
+                    "$type": "EditorMiniAudioPlaybackComponent",
+                    "Id": 1299576081382934428,
+                    "Controller": {
+                        "Config": {
+                            "Sound": {
+                                "assetId": {
+                                    "guid": "{656FE309-7F6E-5295-B0A8-2E98B43D7A5A}",
+                                    "subId": 1
+                                },
+                                "assetHint": "assets/audio/revolver_reload.ogg.miniaudio"
+                            }
+                        }
+                    }
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8099765899110194437
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11924106950264630561
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7627243410997501673
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6658123545282753415,
+                    "Parent Entity": "Entity_[16607940845638]"
+                }
+            }
+        },
+        "Entity_[16586466009158]": {
+            "Id": "Entity_[16586466009158]",
+            "Name": "snf_player_hurt",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 13954746375715384278
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 10723597660786960833
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 2366659941021387265
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 13589840605502348725,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 6658123545282753415
+                        },
+                        {
+                            "ComponentId": 1299576081382934428,
+                            "SortIndex": 1
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9779402898515479506
+                },
+                "EditorMiniAudioPlaybackComponent": {
+                    "$type": "EditorMiniAudioPlaybackComponent",
+                    "Id": 1299576081382934428,
+                    "Controller": {
+                        "Config": {
+                            "Sound": {
+                                "assetId": {
+                                    "guid": "{210B86F3-C570-550E-8E75-81A536BBD5C3}",
+                                    "subId": 1
+                                },
+                                "assetHint": "assets/audio/hurt_crack.ogg.miniaudio"
+                            }
+                        }
+                    }
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8099765899110194437
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11924106950264630561
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7627243410997501673
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6658123545282753415,
+                    "Parent Entity": "Entity_[16607940845638]"
+                }
+            }
+        },
+        "Entity_[16590760976454]": {
+            "Id": "Entity_[16590760976454]",
+            "Name": "snf_player_heal",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 13954746375715384278
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 10723597660786960833
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 2366659941021387265
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 13589840605502348725,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 6658123545282753415
+                        },
+                        {
+                            "ComponentId": 1299576081382934428,
+                            "SortIndex": 1
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9779402898515479506
+                },
+                "EditorMiniAudioPlaybackComponent": {
+                    "$type": "EditorMiniAudioPlaybackComponent",
+                    "Id": 1299576081382934428,
+                    "Controller": {
+                        "Config": {
+                            "Sound": {
+                                "assetId": {
+                                    "guid": "{656FE309-7F6E-5295-B0A8-2E98B43D7A5A}",
+                                    "subId": 1
+                                },
+                                "assetHint": "assets/audio/revolver_reload.ogg.miniaudio"
+                            }
+                        }
+                    }
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8099765899110194437
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11924106950264630561
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7627243410997501673
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6658123545282753415,
+                    "Parent Entity": "Entity_[16607940845638]"
+                }
+            }
+        },
+        "Entity_[16595055943750]": {
+            "Id": "Entity_[16595055943750]",
+            "Name": "snf_player_walk",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 13954746375715384278
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 10723597660786960833
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 2366659941021387265
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 13589840605502348725,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 6658123545282753415
+                        },
+                        {
+                            "ComponentId": 1299576081382934428,
+                            "SortIndex": 1
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9779402898515479506
+                },
+                "EditorMiniAudioPlaybackComponent": {
+                    "$type": "EditorMiniAudioPlaybackComponent",
+                    "Id": 1299576081382934428,
+                    "Controller": {
+                        "Config": {
+                            "Sound": {
+                                "assetId": {
+                                    "guid": "{37D1CF63-5A52-5A92-A710-CC02E2A20B25}",
+                                    "subId": 1
+                                },
+                                "assetHint": "assets/audio/carpet_footsteps.ogg.miniaudio"
+                            },
+                            "Loop": true
+                        }
+                    }
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8099765899110194437
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11924106950264630561
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7627243410997501673
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6658123545282753415,
+                    "Parent Entity": "Entity_[16607940845638]"
+                }
+            }
+        },
+        "Entity_[16599350911046]": {
+            "Id": "Entity_[16599350911046]",
+            "Name": "snd_monster_hurt",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 13954746375715384278
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 10723597660786960833
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 2366659941021387265
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 13589840605502348725,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 6658123545282753415
+                        },
+                        {
+                            "ComponentId": 1299576081382934428,
+                            "SortIndex": 1
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9779402898515479506
+                },
+                "EditorMiniAudioPlaybackComponent": {
+                    "$type": "EditorMiniAudioPlaybackComponent",
+                    "Id": 1299576081382934428,
+                    "Controller": {
+                        "Config": {
+                            "Sound": {
+                                "assetId": {
+                                    "guid": "{9F397A99-870F-5F79-B8A3-6DB8F9351606}",
+                                    "subId": 1
+                                },
+                                "assetHint": "assets/audio/alien_grunt.ogg.miniaudio"
+                            }
+                        }
+                    }
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8099765899110194437
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11924106950264630561
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7627243410997501673
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6658123545282753415,
+                    "Parent Entity": "Entity_[16607940845638]"
+                }
+            }
+        },
+        "Entity_[16603645878342]": {
+            "Id": "Entity_[16603645878342]",
+            "Name": "snd_monster_die",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 13954746375715384278
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 10723597660786960833
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 2366659941021387265
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 13589840605502348725,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 6658123545282753415
+                        },
+                        {
+                            "ComponentId": 1299576081382934428,
+                            "SortIndex": 1
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9779402898515479506
+                },
+                "EditorMiniAudioPlaybackComponent": {
+                    "$type": "EditorMiniAudioPlaybackComponent",
+                    "Id": 1299576081382934428,
+                    "Controller": {
+                        "Config": {
+                            "Sound": {
+                                "assetId": {
+                                    "guid": "{CD375B00-D105-593B-AFCD-9EBFBF8FD5D9}",
+                                    "subId": 1
+                                },
+                                "assetHint": "assets/audio/monster_die.ogg.miniaudio"
+                            }
+                        }
+                    }
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8099765899110194437
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11924106950264630561
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7627243410997501673
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6658123545282753415,
+                    "Parent Entity": "Entity_[16607940845638]"
+                }
+            }
+        },
+        "Entity_[16607940845638]": {
+            "Id": "Entity_[16607940845638]",
+            "Name": "Audio",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 6265686905400574330
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 16774762009532536232
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 15323638624009514148,
+                    "Child Entity Order": [
+                        "Entity_[16599350911046]",
+                        "Entity_[16603645878342]",
+                        "Entity_[16612235812934]",
+                        "Entity_[16595055943750]",
+                        "Entity_[16586466009158]",
+                        "Entity_[16582171041862]",
+                        "Entity_[16590760976454]"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 13591955573734610353,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 13355120109808132546
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 5149634645774960516
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17317360446884853714
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15819331912808811444
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 13673511648349777067
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 13355120109808132546,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        },
+        "Entity_[16612235812934]": {
+            "Id": "Entity_[16612235812934]",
+            "Name": "snf_player_shoot",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 13954746375715384278
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 10723597660786960833
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 2366659941021387265
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 13589840605502348725,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 6658123545282753415
+                        },
+                        {
+                            "ComponentId": 1299576081382934428,
+                            "SortIndex": 1
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9779402898515479506
+                },
+                "EditorMiniAudioPlaybackComponent": {
+                    "$type": "EditorMiniAudioPlaybackComponent",
+                    "Id": 1299576081382934428,
+                    "Controller": {
+                        "Config": {
+                            "Sound": {
+                                "assetId": {
+                                    "guid": "{7AAF7E1F-ABAA-565C-949F-79A05964C6CB}",
+                                    "subId": 1
+                                },
+                                "assetHint": "assets/audio/gunshot.ogg.miniaudio"
+                            }
+                        }
+                    }
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8099765899110194437
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11924106950264630561
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7627243410997501673
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6658123545282753415,
+                    "Parent Entity": "Entity_[16607940845638]"
+                }
+            }
+        }
+    }
+}

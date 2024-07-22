@@ -1,0 +1,146 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "ghetto_particle",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 94714167454737153
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 10398425917665080821
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 7762342672957077604,
+                "Child Entity Order": [
+                    "Entity_[507490262094]"
+                ]
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 1397458692282781525
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 11533629972403525585
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 8304805208221356774
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 12878028556737589633
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 2422218750117694159
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 4619617626832259213
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 13135573700763874081,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[507490262094]": {
+            "Id": "Entity_[507490262094]",
+            "Name": "ghetto_particle",
+            "Components": {
+                "AZ::Render::EditorMeshComponent": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 3444036962049318459,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{F38B7CCF-4546-5E14-ADA0-05AB67B4FE94}",
+                                    "subId": 270579504
+                                },
+                                "assetHint": "assets/default_plane_fff759f4_5927_5f0d_8732_de0d17c616a2_.fbx.azmodel"
+                            },
+                            "ExcludeFromReflectionCubeMaps": true,
+                            "IsRayTracingEnabled": false
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11863428572938211401
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5537786301595407658
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 6014045897843504387
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 2947345795862998818,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 3050218995008948045
+                        },
+                        {
+                            "ComponentId": 2868630953882508708,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 3444036962049318459,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 13284328476800778854,
+                            "SortIndex": 3
+                        },
+                        {
+                            "ComponentId": 982148928329311706,
+                            "SortIndex": 4
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10347483689673628081
+                },
+                "EditorMaterialComponent": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 13284328476800778854
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 3202440800395217040
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 1191037981947164709
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7084272719899827988
+                },
+                "LD55::GhettoParticle": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 10594816475531168248,
+                    "m_template": {
+                        "$type": "LD55::GhettoParticle"
+                    }
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 3050218995008948045,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,238 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "office_chair_1",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 8630477392570875019
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 6194906418456603285
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 11718631117773979216,
+                "Child Entity Order": [
+                    "Entity_[150846436594060]"
+                ]
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 8438706641295220884
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 10209237739941331324
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 6461741459376887520
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 4948517848179319766
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 10094191451886911212
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 10081275963569445155
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 10981514481165948072,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[150846436594060]": {
+            "Id": "Entity_[150846436594060]",
+            "Name": "office_chair_1",
+            "Components": {
+                "AZ::Render::EditorMeshComponent": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 8638844273851917099,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{DD9198B4-C539-50F0-AA17-35C991F608B7}",
+                                    "subId": 284815962
+                                },
+                                "assetHint": "leoassets/environment/props/chair/default_officechair_36871fa4_2054_5f0e_bb9e_33d2ac5161f3_.fbx.azmodel"
+                            }
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8642208334085598297
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4000411816091050570
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9964660209148791566
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 4424993706962363629,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 8946548612572919152
+                        },
+                        {
+                            "ComponentId": 3539345806190152527,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 8638844273851917099,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 6028355338067035408,
+                            "SortIndex": 3
+                        },
+                        {
+                            "ComponentId": 4677887131429267272,
+                            "SortIndex": 4
+                        },
+                        {
+                            "ComponentId": 17982758505503519031,
+                            "SortIndex": 5
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 12753109660973911964
+                },
+                "EditorMaterialComponent": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6028355338067035408,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 457660554
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{A4BB88ED-0BB4-5EB4-B4E0-41CB7C01C82C}"
+                                            },
+                                            "assetHint": "leoassets/environment/props/chair/officechair_office_chair_baked.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "EditorMeshColliderComponent": {
+                    "$type": "EditorMeshColliderComponent",
+                    "Id": 17982758505503519031,
+                    "ColliderConfiguration": {
+                        "Rotation": [
+                            -0.7071067690849304,
+                            0.0,
+                            0.0,
+                            0.7071067094802856
+                        ],
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "DefaultMaterial"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{DD9198B4-C539-50F0-AA17-35C991F608B7}",
+                                    "subId": 3364722938
+                                },
+                                "assetHint": "leoassets/environment/props/chair/officechair.fbx.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{DD9198B4-C539-50F0-AA17-35C991F608B7}",
+                                        "subId": 3364722938
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "leoassets/environment/props/chair/officechair.fbx.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 10729883723896394968
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 10657409926864244509
+                },
+                "EditorRigidBodyComponent": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 4677887131429267272,
+                    "Configuration": {
+                        "entityId": "",
+                        "Interpolate Motion": true,
+                        "Mass": 46.96621322631836,
+                        "Centre of mass offset": [
+                            -0.030927225947380066,
+                            0.3825490474700928,
+                            0.0016408772207796574
+                        ],
+                        "Inertia tensor": [
+                            5.024644374847412,
+                            0.0,
+                            0.0,
+                            0.0,
+                            2.1533703804016113,
+                            0.0,
+                            0.0,
+                            0.0,
+                            4.912261486053467
+                        ]
+                    }
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 16007553773703257342
+                },
+                "LD55::CombatStatusComponent": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 3539345806190152527,
+                    "m_template": {
+                        "$type": "LD55::CombatStatusComponent",
+                        "Sound Die": "",
+                        "Sound Hurt": "",
+                        "Sound Heal": "",
+                        "Destroy On Die": false,
+                        "Immortal": true,
+                        "Damage Impulse": 100.0
+                    }
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 8946548612572919152,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "project_name": "LD55",
+    "version": "1.0.0",
+    "project_id": "{C03229DA-8677-48C0-ACA3-916FE3DE4890}",
+    "origin": "https://github.com/alexramallo/ld55",
+    "license": "https://opensource.org/licenses/MIT",
+    "display_name": "LD55",
+    "summary": "A Ludum Dare 55 jam game.",
+    "canonical_tags": [
+        "Project"
+    ],
+    "user_tags": [
+        "LD55"
+    ],
+    "icon_path": "preview.png",
+    "engine": "o3de-src",
+    "external_subdirectories": [
+        "Gem"
+    ],
+    "restricted": "LD55",
+    "gem_names": [
+        "Atom",
+        "AtomLyIntegration",
+        "Atom_AtomBridge",
+        "Atom_Bootstrap",
+        "Atom_Feature_Common",
+        "Atom_RPI",
+        "AudioSystem",
+        "CameraFramework",
+        "CommonFeaturesAtom",
+        "DebugDraw",
+        "DiffuseProbeGrid",
+        "EMotionFX",
+        "EditorPythonBindings",
+        "GameState",
+        "LD55",
+        "LandscapeCanvas",
+        "LyShine",
+        "MiniAudio",
+        "PhysX",
+        "PrefabBuilder",
+        "PrimitiveAssets",
+        "RecastNavigation",
+        "RemoteTools",
+        "SaveData",
+        "SceneProcessing",
+        "ScriptCanvasPhysics",
+        "ScriptEvents",
+        "StartingPointInput",
+        "TextureAtlas",
+        "WhiteBox"
+    ],
+    "engine_version": "2.2.1"
+}

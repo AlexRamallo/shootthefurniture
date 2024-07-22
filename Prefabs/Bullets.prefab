@@ -1,0 +1,329 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Bullets",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 15878614205195887259
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 1742788620127883042
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 10503790184890300520,
+                "Child Entity Order": [
+                    "Entity_[248598717150903]"
+                ]
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 9645898595561494247
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 8883646303858799391
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 9203551344129456062
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 11923786821402987991
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 16650053646489986360
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 90375868629806614
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 9432667335785896564,
+                "Parent Entity": "",
+                "Transform Data": {
+                    "Translate": [
+                        -20.707881927490234,
+                        0.0,
+                        0.0
+                    ]
+                }
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[248594422183607]": {
+            "Id": "Entity_[248594422183607]",
+            "Name": "BULLET",
+            "Components": {
+                "AZ::Render::EditorMeshComponent": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 11526630374925988324,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{DA5E32A5-86E5-5511-A141-368D86C96DEF}",
+                                    "subId": 278958037
+                                },
+                                "assetHint": "leoassets/collectibles/bullet/default_bullets_9d08b6b7_a048_5aed_899b_3fe85f4f77ca_.fbx.azmodel"
+                            }
+                        }
+                    }
+                },
+                "EditorColliderComponent": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 14832556923658372713,
+                    "ColliderConfiguration": {
+                        "CollisionLayer": {
+                            "Index": 3
+                        },
+                        "CollisionGroupId": {
+                            "GroupId": "{9CAA0C2A-4F54-4A78-90CD-B07F0DE4F2BC}"
+                        },
+                        "Trigger": true,
+                        "Position": [
+                            0.0,
+                            0.23477400839328766,
+                            1.3993623149133327e-8
+                        ],
+                        "Rotation": [
+                            0.7071067690849304,
+                            0.0,
+                            0.0,
+                            0.7071067094802856
+                        ],
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        },
+                        "ContactOffset": 0.029999999329447746
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 3,
+                        "Cylinder": {
+                            "Configuration": {
+                                "CookedData": "TlhTAUNWWE0NAAAAAAAAAElDRQFDTEhMCQAAACAAAAAwAAAAEgAAAGAAAABfReS9FPDxPl1F5L0iFHe9FfDxPgwgFb4iFHe9wLxDuw4gFb5fReS9Ab1Du2FF5L1fReQ9FPDxPmNF5D0nFHc9E/DxPhAgFT4nFHc9Qb1Duw4gFT5fReQ9Ab1Du19F5D0NIBU+Ab1DuykUdz0NIBU+FPDxPjAUdz12aSG+FPDxPochdzJ2aSG+Ab1Du5fNb7INIBW+Ab1DuyYUdz0NIBW+FPDxPi4Udz0NIBW+Ab1DuywUd736jrEywLxDu3ZpIb4vFHc9wLxDuw4gFb5hReQ9Ab1Du11F5L0PIBU+Ab1DuyIUd712aSE+Ab1DuwC9Q6+ivuyxQb1Du3ZpIT4rFHe9Qb1Duw4gFT5hReS9Ab1Du19F5D0NIBW+FPDxPiQUd71hReS9FPDxPmNF5D0rFHe9E/DxPhAgFT52aSE+FPDxPhXw8TIPIBU+FPDxPhoUd72ivuyxE/DxPnhpIT76jrEyFfDxPnRpIb4vFHc9FfDxPgwgFb5hReQ9FPDxPlhF5L2Gpz40//9/v907PrT/vEO7AAAQGNY5Dr9B0F8zM9tUv3pPHr4QAAQF2zkOPz3QX7Mw21Q/e08evhQABAAx21Q/H4wVs9k5Dj96Tx6+GAAEAL4Ue7/FxUeyxcVHPnpPHr4cAAQSvhR7v8fFRzLHxUe+ek8eviAABAgx21S/HowVM9g5Dr96Tx6+JAAEBDTbVL8bjBWz1TkOP3tPHr4oAAQS2zkOvz3QX7Mw21Q/fE8eviwABBC/FHs/m8w3ssfFRz58Tx6+MAAEDsAUez+sxUcyq8VHvnxPHr40AAQKtsVHvsQAhLO/FHs/e08evjgABB63xUc+xACEs78Uez97Tx6+PAAEAbfFRz7EAIQzvxR7v3tPHr5AAAQUtsVHvsMAhDO+FHu/e08evkQABAUw21Q/IYwVM9s5Dr97Tx6+SAAEFuE5Dj8l4oszLdtUv3xPHr5MAAQWK467NP//fz8sjrs0EPDxvlAAEAMOAwIPEBESEwgHBhQVFgwLAAECAwQFBgcEBwgJCgsMDQ4LChcOFwADGA0MFhgWFRkaCQgTGhMSGxwZFRQcFAYFHR4QDx0PAgEfGxIRHxEQHh8eHQEAFwoNGBkcBQQJGhsABgABAA4ADQAQAA8ACgAJAAMAAgAMAAsACAAHAAQABQERAQ4BBgIRAgwCAwMJAxEEBQQHBBEFEQUGBhEHEQcICAsIEQkRCQoKDwoRCxELDAwRDRENEA0ODhEPEQ8QEBEBBhEBDhEAAQ4AAQYCAxECDBEAAgwAAgMAAwkDCREEBREABAUABAcEBxEABQYADQ4ADRAADxAACg8ACQoACwwACAsABwgFBhEHCBEICxEJChEKDxELDBENDhENEBEPEBEAAAAAdmkhvoC9Q7t2aSG+dmkhPhXw8T54aSE+/SgUPQSvPTtMM9ytGG8OLUwz3K0/oOU5Y6YhrxhvDi1jpiGvBK89O3ZWYTGaaHA+yOeFMgAAgL95Tx4+GM22PYV3cz4YzbY9",
+                                "Type": 1
+                            },
+                            "Height": 0.4755215346813202,
+                            "Radius": 0.1576288938522339
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 2542219796405977314
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 14092763207583879453
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12337835669290809373
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 18422270454853361896,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 14776394984026185131
+                        },
+                        {
+                            "ComponentId": 11526630374925988324,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 10622179882424662287,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 14832556923658372713,
+                            "SortIndex": 3
+                        },
+                        {
+                            "ComponentId": 2150782555309069022,
+                            "SortIndex": 4
+                        },
+                        {
+                            "ComponentId": 3513203055401523505,
+                            "SortIndex": 5
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6066105774453064868
+                },
+                "EditorMaterialComponent": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 10622179882424662287,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3005231069
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{1F41A1E2-FD97-5F98-A9A7-9E608533C8AC}"
+                                            },
+                                            "assetHint": "leoassets/collectibles/bullet/bullets_bullet.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "clearCoat.enable": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "clearCoat.factor": {
+                                                "$type": "float",
+                                                "Value": 0.4099999964237213
+                                            },
+                                            "clearCoat.roughness": {
+                                                "$type": "float",
+                                                "Value": 0.1899999976158142
+                                            },
+                                            "emissive.affectedByAlpha": {
+                                                "$type": "float",
+                                                "Value": 0.009999999776482582
+                                            },
+                                            "emissive.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    0.574288547039032,
+                                                    0.14917220175266266,
+                                                    0.0479438453912735,
+                                                    1.0
+                                                ]
+                                            },
+                                            "emissive.enable": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "emissive.intensity": {
+                                                "$type": "float",
+                                                "Value": 3.4600000381469727
+                                            },
+                                            "emissive.textureMap": {
+                                                "$type": "AssetId",
+                                                "Value": {
+                                                    "guid": "{114EB808-983A-5F29-A60B-AD41ED797C84}",
+                                                    "subId": 1000
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 16203024250486714878
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 10832894819316524053
+                },
+                "EditorStaticRigidBodyComponent": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 2150782555309069022
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14392246266185375679
+                },
+                "LD55::CollectibleComponent": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 3513203055401523505,
+                    "m_template": {
+                        "$type": "LD55::CollectibleComponent",
+                        "Respawn Timer": 30.0,
+                        "Type": 1,
+                        "Value": 6
+                    }
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14776394984026185131,
+                    "Parent Entity": "Entity_[248598717150903]",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.19739747047424316,
+                            0.4300222396850586,
+                            0.45521944761276245
+                        ],
+                        "Rotate": [
+                            90.00000762939453,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[248598717150903]": {
+            "Id": "Entity_[248598717150903]",
+            "Name": "bullets_fbx",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3563375204673389077
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 14461486711394405067
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 14127713375756464532,
+                    "Child Entity Order": [
+                        "Entity_[248594422183607]"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 1502347016852478390,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 2777496352277460162
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 1326134839980983515
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5379062518480153234
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13065549642451451498
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 404824690114845006
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2777496352277460162,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        }
+    }
+}
